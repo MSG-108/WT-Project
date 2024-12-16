@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="home.css">
+  <script src="index.js" defer></script>
+</head>
+<body class="home">
+
+  <header class="primary-header ">
+
+    <div class="logo flex ">
+      <img src="./assets/shared/logo.svg" alt="Logo">
+
+    </div>
+    <button aria-expanded="false" class="mobile-nav-toggle"><span class="sr-only">Menu</span></button>
+    <nav>
+      <ul data-visible="false" class="underline-indicator flex primary-navigation ff-barlow-condensed nav-text uppercase text-white " >
+        <li class="active"><a href="index.html"><span class="home-span " style="margin-right: 0.72rem;">00</span>Home</a></li>
+        <li><a href="destination-moon.html"><span style="margin-right: 0.90rem;">01</span>Destination</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-container grid">
+      <div class="text">
+        <h1 class="text-light-blue ff-barlow-condensed heading-xs uppercase">So, you want to travel to</h1>
+          <h1 class="space text-white ff-bellefair-regular heading-xl uppercase">Space</h1>
+          <p class="text-light-blue ff-barlow-regular body-text">
+            Let’s face it; if you want to go to space, you might as well genuinely go to 
+          outer space and not hover kind of on the edge of it. Well sit back, and relax 
+          because we’ll give you a truly out of this world experience!
+          </p>
+      </div>
+    
+      <div class="button grid">
+        <a href="destination-moon.html" class="explore bg-white text-dark-navy ff-bellefair-regular heading-s">Explore</a>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+</html>

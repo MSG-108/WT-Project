@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="destination.css">
+  <script src="index.js" defer></script>
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="home">
+
+  <header class="primary-header ">
+
+    <div class="logo flex ">
+      <img src="./assets/shared/logo.svg" alt="Logo">
+
+    </div>
+    <button aria-expanded="false" class="mobile-nav-toggle"><span class="sr-only">Menu</span></button>
+    <nav>
+      <ul data-visible="false" class="underline-indicator flex primary-navigation ff-barlow-condensed nav-text uppercase text-white " >
+        <li><a href="index.html"><span class="home-span " style="margin-right: 0.72rem;">00</span>Home</a></li>
+        <li class="active"><a href="destination-moon.html"><span style="margin-right: 0.90rem;">01</span>Destination</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-container grid">
+      <h2 class="numbered-title heading-s uppercase ff-bellefair-regular text-white"><span>01</span> Pick your destination</h2>
+
+      <div class="container grid">
+        <div class="image grid">
+          <img src="./assets/destination/image-moon.png" alt="">
+        </div>
+    
+        <div class="text-container">
+          <div class="text grid">
+            <div class="tabs ff-barlow-regular body-text uppercase text-white">
+              <button type="button" class="active tab bg-dark-navy"><a href="destination-moon.html">Moon</a></button>
+              <button type="burron" class="tab bg-dark-navy"><a href="destination-mars.html">Mars</a></button>
+              <button type="button" class="tab bg-dark-navy"><a href="destination-europa.html">europa</a></button>
+              <button type="button" class="tab bg-dark-navy"><a href="destination-titan.html">titan</a></button>
+            </div>
+        
+            <h1 class="title text-white ff-bellefair-regular heading-l uppercase">Moon</h1>
+        
+            <p class="text-light-blue ff-barlow-regular body-text">
+              See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+              regain perspective and come back refreshed. While you’re there, take in some history 
+              by visiting the Luna 2 and Apollo 11 landing sites.
+            </p>
+      
+            <div class="footer text-light-blue grid">
+              <div>
+                <p class="sub-heading-s ff-barlow-condensed">Avg. distance</p>
+                <p class="sub-heading-l ff-bellefair-regular">384,400 km</p>
+              </div>
+        
+              <div>
+                <p class="sub-heading-s ff-barlow-condensed">Est. travel time</p>
+                <p class="sub-heading-l ff-bellefair-regular">3 days</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>
